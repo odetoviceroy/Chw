@@ -1,0 +1,15 @@
+Naming Conventions for this Program:
+
+  Music files (.mp3):
+      artist-album-song.mp3
+  Video files (.mkv):
+      movieyear-title.mp3
+      OR
+      tvshowname-season-episode-episodetitle.mkv
+  Document, picture, or other files:
+      title.extension
+      
+For music files, this creates a directory for each artist, following by a directory for each album, and renames the .mp3 file to just song.mp3
+For video MOVIE files, this creates a directory for each year, and renames the .mkv file to just title.mp3
+For video SHOW files, this creates a directory for each tvshowname, followed by a directory for each season, and renames the .mkv file to episode-episodetitle.mkv
+For other files, just places them file in other/ and keeps the filename the same.
